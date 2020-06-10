@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -180,7 +180,7 @@ Entry Bus Bus
 Wire Bus Line
 	6800 4400 6850 4400
 Text GLabel 6850 4400 2    50   Output ~ 0
-Row[0..11]
+VROW[0..11]
 $Comp
 L 4xxx:4040 U5
 U 1 1 5EE3F988
@@ -263,7 +263,7 @@ Entry Bus Bus
 Wire Bus Line
 	9250 4400 9300 4400
 Text GLabel 9300 4400 2    50   Output ~ 0
-Col[0..11]
+VCOL[0..11]
 Text Label 4150 3050 2    50   ~ 0
 Field0
 Text Label 4150 3150 2    50   ~ 0
@@ -288,58 +288,79 @@ Text Label 4150 4050 2    50   ~ 0
 Field10
 Text Label 4150 4150 2    50   ~ 0
 Field11
-Text Label 6600 3050 2    50   ~ 0
-Row0
-Text Label 6600 3150 2    50   ~ 0
-Row1
-Text Label 6600 3250 2    50   ~ 0
-Row2
-Text Label 6600 3350 2    50   ~ 0
-Row3
-Text Label 6600 3450 2    50   ~ 0
-Row4
-Text Label 6600 3550 2    50   ~ 0
-Row5
-Text Label 6600 3650 2    50   ~ 0
-Row6
-Text Label 6600 3750 2    50   ~ 0
-Row7
-Text Label 6600 3850 2    50   ~ 0
-Row8
-Text Label 6600 3950 2    50   ~ 0
-Row9
-Text Label 6600 4050 2    50   ~ 0
-Row10
-Text Label 6600 4150 2    50   ~ 0
-Row11
-Text Label 9050 3050 2    50   ~ 0
-Col0
-Text Label 9050 3150 2    50   ~ 0
-Col1
-Text Label 9050 3250 2    50   ~ 0
-Col2
-Text Label 9050 3350 2    50   ~ 0
-Col3
-Text Label 9050 3450 2    50   ~ 0
-Col4
-Text Label 9050 3550 2    50   ~ 0
-Col5
-Text Label 9050 3650 2    50   ~ 0
-Col6
-Text Label 9050 3750 2    50   ~ 0
-Col7
-Text Label 9050 3850 2    50   ~ 0
-Col8
-Text Label 9050 3950 2    50   ~ 0
-Col9
-Text Label 9050 4050 2    50   ~ 0
-Col10
-Text Label 9050 4150 2    50   ~ 0
-Col11
 Text GLabel 7700 3050 0    50   Input ~ 0
 4MHz
 Text GLabel 7700 3350 0    50   Input ~ 0
 ~HOn
+Text Label 9050 3050 2    50   ~ 0
+VCOL0
+Text Label 9050 3150 2    50   ~ 0
+VCOL1
+Text Label 9050 3250 2    50   ~ 0
+VCOL2
+Text Label 9050 3350 2    50   ~ 0
+VCOL3
+Text Label 9050 3450 2    50   ~ 0
+VCOL4
+Text Label 9050 3550 2    50   ~ 0
+VCOL5
+Text Label 9050 3650 2    50   ~ 0
+VCOL6
+Text Label 9050 3750 2    50   ~ 0
+VCOL7
+Text Label 9050 3850 2    50   ~ 0
+VCOL8
+Text Label 9050 3950 2    50   ~ 0
+VCOL9
+Text Label 9050 4050 2    50   ~ 0
+VCOL10
+Text Label 9050 4150 2    50   ~ 0
+VCOL11
+Text Label 6600 3050 2    50   ~ 0
+VROW0
+Text Label 6600 3150 2    50   ~ 0
+VROW1
+Text Label 6600 3250 2    50   ~ 0
+VROW2
+Text Label 6600 3350 2    50   ~ 0
+VROW3
+Text Label 6600 3450 2    50   ~ 0
+VROW4
+Text Label 6600 3550 2    50   ~ 0
+VROW5
+Text Label 6600 3650 2    50   ~ 0
+VROW6
+Text Label 6600 3750 2    50   ~ 0
+VROW7
+Text Label 6600 3850 2    50   ~ 0
+VROW8
+Text Label 6600 3950 2    50   ~ 0
+VROW9
+Text Label 6600 4050 2    50   ~ 0
+VROW10
+Text Label 6600 4150 2    50   ~ 0
+VROW11
+NoConn ~ 8750 3950
+NoConn ~ 8750 4050
+NoConn ~ 8750 4150
+NoConn ~ 6300 3950
+NoConn ~ 6300 4050
+NoConn ~ 6300 4150
+NoConn ~ 3850 3050
+NoConn ~ 3850 3150
+NoConn ~ 3850 3250
+NoConn ~ 3850 3350
+NoConn ~ 3850 3450
+NoConn ~ 3850 3550
+NoConn ~ 3850 3650
+NoConn ~ 3850 3750
+NoConn ~ 3850 3850
+NoConn ~ 3850 4050
+NoConn ~ 3850 3950
+NoConn ~ 3850 4150
+NoConn ~ 8750 3150
+NoConn ~ 8750 3050
+NoConn ~ 8750 3250
 Wire Bus Line
 	4250 3150 4250 4300
 Wire Bus Line

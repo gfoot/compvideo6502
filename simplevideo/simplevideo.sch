@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -97,12 +97,12 @@ U 5F286EAD
 F0 "Horizontal Timing" 50
 F1 "htiming.sch" 50
 $EndSheet
-Text GLabel 5650 4750 0    50   Input ~ 0
+Text GLabel 3250 5400 0    50   Input ~ 0
 VCC
-Text GLabel 5800 4750 2    50   Output ~ 0
+Text GLabel 3400 5400 2    50   Output ~ 0
 ~NTSC
 Wire Wire Line
-	5650 4750 5800 4750
+	3250 5400 3400 5400
 $Comp
 L Transistor_BJT:2N3904 Q2
 U 1 1 5F232061
@@ -116,27 +116,14 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5000 6750 50  000
 $EndComp
 Text GLabel 3400 7550 0    50   Input ~ 0
 GND
-Text GLabel 1350 7150 0    50   Input ~ 0
+Text GLabel 2700 7150 0    50   Input ~ 0
 ~HSync
-Text GLabel 1350 7350 0    50   Input ~ 0
+Text GLabel 2700 7350 0    50   Input ~ 0
 ~VSync
-$Comp
-L 74xx:74HCT00 U18
-U 4 1 5F235E09
-P 1800 7250
-F 0 "U18" H 1800 7250 50  0000 C CNN
-F 1 "74HCT00" H 1800 7484 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1800 7250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 1800 7250 50  0001 C CNN
-	4    1800 7250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1500 7150 1350 7150
+	2850 7150 2700 7150
 Wire Wire Line
-	1500 7350 1350 7350
-Wire Wire Line
-	2100 7250 2250 7250
+	2850 7350 2700 7350
 $Comp
 L Device:R R7
 U 1 1 5F23733A
@@ -167,53 +154,33 @@ Wire Wire Line
 	5100 7500 5100 7550
 Connection ~ 5100 7550
 Wire Wire Line
-	5100 7550 6850 7550
+	5100 7550 5900 7550
 Wire Wire Line
 	5100 6950 5100 7100
 Wire Wire Line
-	5100 7100 5500 7100
+	5100 7100 5450 7100
 Connection ~ 5100 7100
 Wire Wire Line
 	5100 7100 5100 7200
 $Comp
 L Device:R R8
 U 1 1 5EDE0EE4
-P 5650 7100
-F 0 "R8" V 5443 7100 50  0000 C CNN
-F 1 "40" V 5534 7100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5580 7100 50  0001 C CNN
-F 3 "~" H 5650 7100 50  0001 C CNN
-	1    5650 7100
+P 5600 7100
+F 0 "R8" V 5393 7100 50  0000 C CNN
+F 1 "40" V 5484 7100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5530 7100 50  0001 C CNN
+F 3 "~" H 5600 7100 50  0001 C CNN
+	1    5600 7100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5800 7100 6200 7100
+	5750 7100 5850 7100
 Wire Wire Line
 	5100 6200 4200 6200
 Wire Wire Line
 	5100 6200 5100 6550
 Text GLabel 3900 6200 0    50   Input ~ 0
 VCC
-$Comp
-L 74xx:74HCT00 U18
-U 3 1 5EDF24F9
-P 2650 7250
-F 0 "U18" H 2650 7250 50  0000 C CNN
-F 1 "74HCT00" H 2650 7484 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2650 7250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 2650 7250 50  0001 C CNN
-	3    2650 7250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 7350 2250 7350
-Wire Wire Line
-	2250 7350 2250 7250
-Wire Wire Line
-	2250 7150 2350 7150
-Connection ~ 2250 7250
-Wire Wire Line
-	2250 7250 2250 7150
 $Comp
 L Device:R R9
 U 1 1 5EDFD3C3
@@ -256,51 +223,14 @@ Wire Wire Line
 Connection ~ 4300 7550
 Wire Wire Line
 	4300 7550 5100 7550
-$Comp
-L 74xx:74HCT00 U18
-U 1 1 5EE0C76E
-P 1800 6750
-F 0 "U18" H 1800 6750 50  0000 C CNN
-F 1 "74HCT00" H 1800 6984 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1800 6750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 1800 6750 50  0001 C CNN
-	1    1800 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 6750 2250 6750
-$Comp
-L 74xx:74HCT00 U18
-U 2 1 5EE0C775
-P 2650 6750
-F 0 "U18" H 2650 6750 50  0000 C CNN
-F 1 "74HCT00" H 2650 6984 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2650 6750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 2650 6750 50  0001 C CNN
-	2    2650 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 6850 2250 6850
-Wire Wire Line
-	2250 6850 2250 6750
-Wire Wire Line
-	2250 6650 2350 6650
-Connection ~ 2250 6750
-Wire Wire Line
-	2250 6750 2250 6650
-Text GLabel 1350 6650 0    50   Input ~ 0
+Text GLabel 2700 6650 0    50   Input ~ 0
 HOn
-Text GLabel 1350 6850 0    50   Input ~ 0
+Text GLabel 2700 6850 0    50   Input ~ 0
 LUM
 Wire Wire Line
-	1350 6650 1500 6650
+	2700 6650 2850 6650
 Wire Wire Line
-	1350 6850 1500 6850
-Wire Wire Line
-	2950 6750 3550 6750
-Wire Wire Line
-	2950 7250 3550 7250
+	2700 6850 2850 6850
 Wire Wire Line
 	4050 7250 4050 6750
 Connection ~ 4050 6750
@@ -319,17 +249,63 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3700 7250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3850 7250 4050 7250
-Wire Wire Line
-	5650 5050 5800 5050
-Text GLabel 5650 5050 0    50   Input ~ 0
-HOn
-Text GLabel 5800 5050 2    50   Output ~ 0
-LUM
-NoConn ~ 6200 7100
 $Sheet
 S 6300 1550 1600 1550
 U 5EE3196A
 F0 "Coordinate Counting" 50
 F1 "coordinates.sch" 50
 $EndSheet
+$Sheet
+S 8150 1550 1500 1550
+U 5EE02DBD
+F0 "Memory Controller" 50
+F1 "memorycontroller.sch" 50
+$EndSheet
+$Sheet
+S 9800 1550 1300 1550
+U 5FE807DE
+F0 "CPU etc" 50
+F1 "cpu.sch" 50
+$EndSheet
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5FEC914C
+P 6100 7450
+F 0 "J1" H 6180 7442 50  0000 L CNN
+F 1 "Conn_01x02" H 6180 7351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6100 7450 50  0001 C CNN
+F 3 "~" H 6100 7450 50  0001 C CNN
+	1    6100 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 7450 5850 7450
+Wire Wire Line
+	5850 7450 5850 7100
+$Comp
+L 74xx:74LS08 U2
+U 3 1 5FFB1A37
+P 3150 6750
+F 0 "U2" H 3150 7075 50  0000 C CNN
+F 1 "74LS08" H 3150 6984 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3150 6750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3150 6750 50  0001 C CNN
+	3    3150 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U2
+U 4 1 5FFB6050
+P 3150 7250
+F 0 "U2" H 3150 7575 50  0000 C CNN
+F 1 "74LS08" H 3150 7484 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3150 7250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3150 7250 50  0001 C CNN
+	4    3150 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 7250 3550 7250
+Wire Wire Line
+	3450 6750 3550 6750
 $EndSCHEMATC

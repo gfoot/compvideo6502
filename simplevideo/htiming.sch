@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -327,4 +327,9 @@ Alternate\noption
 Wire Wire Line
 	3700 2350 4300 2350
 NoConn ~ 2550 3400
+Text GLabel 6350 3200 2    50   Output ~ 0
+~HOn
+Wire Wire Line
+	6350 3200 6150 3200
+Connection ~ 6150 3200
 $EndSCHEMATC

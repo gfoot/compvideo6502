@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -16,493 +16,1014 @@ $EndDescr
 $Comp
 L Oscillator:CXO_DIP8 X?
 U 1 1 5EE73B82
-P 1500 1950
+P 1350 1550
 AR Path="/5EE73B82" Ref="X?"  Part="1" 
 AR Path="/5EE6D50C/5EE73B82" Ref="X1"  Part="1" 
-F 0 "X1" H 1300 2200 50  0000 L CNN
-F 1 "CXO_DIP8" H 1550 2200 50  0000 L CNN
-F 2 "Oscillator:Oscillator_DIP-8" H 1950 1600 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 1400 1950 50  0001 C CNN
-	1    1500 1950
+F 0 "X1" H 1150 1800 50  0000 L CNN
+F 1 "CXO_DIP8" H 1400 1800 50  0000 L CNN
+F 2 "Oscillator:Oscillator_DIP-8" H 1800 1200 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 1250 1550 50  0001 C CNN
+	1    1350 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 1650 1500 1550
+	1350 1250 1350 1150
 Wire Wire Line
-	1500 2250 1500 2350
+	1350 1850 1350 1950
 Wire Wire Line
-	1200 1950 950  1950
+	1050 1550 800  1550
 $Comp
 L power:+5V #PWR?
 U 1 1 5EE73B8C
-P 1500 1550
+P 1350 1150
 AR Path="/5EE73B8C" Ref="#PWR?"  Part="1" 
 AR Path="/5EE6D50C/5EE73B8C" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 1500 1400 50  0001 C CNN
-F 1 "+5V" H 1515 1723 50  0000 C CNN
-F 2 "" H 1500 1550 50  0001 C CNN
-F 3 "" H 1500 1550 50  0001 C CNN
-	1    1500 1550
+F 0 "#PWR01" H 1350 1000 50  0001 C CNN
+F 1 "+5V" H 1365 1323 50  0000 C CNN
+F 2 "" H 1350 1150 50  0001 C CNN
+F 3 "" H 1350 1150 50  0001 C CNN
+	1    1350 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5EE73B92
-P 950 1850
+P 800 1450
 AR Path="/5EE73B92" Ref="#PWR?"  Part="1" 
 AR Path="/5EE6D50C/5EE73B92" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 950 1700 50  0001 C CNN
-F 1 "+5V" H 965 2023 50  0000 C CNN
-F 2 "" H 950 1850 50  0001 C CNN
-F 3 "" H 950 1850 50  0001 C CNN
-	1    950  1850
+F 0 "#PWR02" H 800 1300 50  0001 C CNN
+F 1 "+5V" H 815 1623 50  0000 C CNN
+F 2 "" H 800 1450 50  0001 C CNN
+F 3 "" H 800 1450 50  0001 C CNN
+	1    800  1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  1850 950  1950
+	800  1450 800  1550
 $Comp
 L power:GND #PWR?
 U 1 1 5EE73B99
-P 1500 2350
+P 1350 1950
 AR Path="/5EE73B99" Ref="#PWR?"  Part="1" 
 AR Path="/5EE6D50C/5EE73B99" Ref="#PWR03"  Part="1" 
-F 0 "#PWR03" H 1500 2100 50  0001 C CNN
-F 1 "GND" H 1505 2177 50  0000 C CNN
-F 2 "" H 1500 2350 50  0001 C CNN
-F 3 "" H 1500 2350 50  0001 C CNN
-	1    1500 2350
+F 0 "#PWR03" H 1350 1700 50  0001 C CNN
+F 1 "GND" H 1355 1777 50  0000 C CNN
+F 2 "" H 1350 1950 50  0001 C CNN
+F 3 "" H 1350 1950 50  0001 C CNN
+	1    1350 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L g200kg_CD74HCxx:CD74HC40103 U?
 U 1 1 5EE46230
-P 4600 2100
+P 2300 4000
 AR Path="/5EE46230" Ref="U?"  Part="1" 
 AR Path="/5EE74130/5EE46230" Ref="U?"  Part="1" 
 AR Path="/5EE6D50C/5EE46230" Ref="U3"  Part="1" 
-F 0 "U3" H 4600 2950 50  0000 C CNN
-F 1 "CD74HC40103" H 4600 2850 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 4600 2100 50  0001 C CNN
-F 3 "" H 4600 2100 50  0000 C CNN
-	1    4600 2100
+F 0 "U3" H 2300 4850 50  0000 C CNN
+F 1 "CD74HC40103" H 2300 4750 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2300 4000 50  0001 C CNN
+F 3 "" H 2300 4000 50  0000 C CNN
+	1    2300 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 1500 4200 1500
+	1850 3400 1900 3400
 Wire Wire Line
-	3900 1600 4200 1600
+	1600 3500 1900 3500
 Wire Wire Line
-	3900 1700 4200 1700
+	1600 3600 1900 3600
 Wire Wire Line
-	3900 1800 4200 1800
+	1600 3700 1900 3700
 Wire Wire Line
-	3900 1900 4200 1900
+	1600 3800 1900 3800
 Wire Wire Line
-	3900 2000 4200 2000
+	1600 3900 1900 3900
 Wire Wire Line
-	4050 2100 4200 2100
+	1600 4000 1900 4000
 Wire Wire Line
-	4150 2800 4200 2800
+	1850 4700 1900 4700
 Wire Wire Line
-	5000 2100 5050 2100
-Text Notes 2150 1100 0    50   ~ 0
-Divide 16MHz clock to 4MHz
-Text GLabel 3900 1500 0    50   Input ~ 0
+	2700 4000 2750 4000
+Text GLabel 1850 4500 0    50   Input ~ 0
 VCC
-Text GLabel 4150 2600 0    50   Input ~ 0
+Text GLabel 1850 4700 0    50   Input ~ 0
 VCC
-Text GLabel 4150 2800 0    50   Input ~ 0
-VCC
-Text Notes 3650 1150 0    50   ~ 0
-PAL: 64uS = 256 ticks @4MHz\nNTSC: 63.49uS ~~= 254 ticks @4MHz
-$Comp
-L g200kg_CD74HCxx:CD74HC40103 U?
-U 1 1 5EE4F5FA
-P 2950 2100
-AR Path="/5EE4F5FA" Ref="U?"  Part="1" 
-AR Path="/5EE74130/5EE4F5FA" Ref="U?"  Part="1" 
-AR Path="/5EE6D50C/5EE4F5FA" Ref="U2"  Part="1" 
-F 0 "U2" H 2950 2950 50  0000 C CNN
-F 1 "CD74HC40103" H 2950 2850 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 2950 2100 50  0001 C CNN
-F 3 "" H 2950 2100 50  0000 C CNN
-	1    2950 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 2200 2250 2200
-Wire Wire Line
-	2500 1500 2550 1500
-Wire Wire Line
-	2500 1600 2550 1600
-Wire Wire Line
-	2500 1700 2550 1700
-Wire Wire Line
-	2500 1800 2550 1800
-Wire Wire Line
-	2500 1900 2550 1900
-Wire Wire Line
-	2500 2000 2550 2000
-Wire Wire Line
-	2500 2800 2550 2800
-Wire Wire Line
-	2550 2700 2500 2700
-Wire Wire Line
-	2500 2600 2550 2600
-Text GLabel 2500 1500 0    50   Input ~ 0
-GND
-Text GLabel 2500 1600 0    50   Input ~ 0
-GND
-Text GLabel 2500 1700 0    50   Input ~ 0
-GND
-Text GLabel 2500 1800 0    50   Input ~ 0
-GND
-Text GLabel 2500 1900 0    50   Input ~ 0
-GND
-Text GLabel 2500 2000 0    50   Input ~ 0
-GND
-Text GLabel 2250 2200 0    50   Input ~ 0
-VCC
-Text GLabel 2500 2700 0    50   Input ~ 0
-GND
-Text GLabel 2500 2800 0    50   Input ~ 0
-VCC
-Wire Wire Line
-	2200 2500 2200 2950
-Wire Wire Line
-	2200 2950 3400 2950
-Wire Wire Line
-	3400 2950 3400 2400
-Wire Wire Line
-	3400 2100 3350 2100
-Wire Wire Line
-	2200 2500 2550 2500
-Text GLabel 2500 2600 0    50   Input ~ 0
-VCC
-Text Notes 3650 850  0    50   ~ 0
+Text Notes 1350 3050 0    50   ~ 0
+PAL: 32uS = 128 ticks @4MHz\nNTSC: ~~31.75uS ~~= 127 ticks @4MHz
+Text Notes 1350 2750 0    50   ~ 0
 Divide 4MHz clock to make HalfRowClk
-Wire Wire Line
-	1800 1950 1900 1950
-Text GLabel 3450 3150 2    50   Output ~ 0
+Text GLabel 1650 4300 0    50   Input ~ 0
 4MHz
 Wire Wire Line
-	3900 2200 4200 2200
+	1750 4100 1900 4100
 Wire Wire Line
-	3750 2500 3750 2950
+	1450 4400 1450 4850
 Wire Wire Line
-	3750 2950 5050 2950
+	1450 4850 2750 4850
 Wire Wire Line
-	3750 2500 4200 2500
-Text GLabel 4150 2700 0    50   Input ~ 0
+	1450 4400 1900 4400
+Text GLabel 1850 4600 0    50   Input ~ 0
 GND
 Wire Wire Line
-	4150 2700 4200 2700
+	1850 4600 1900 4600
 Wire Wire Line
-	4150 2600 4200 2600
-Text GLabel 5100 3150 2    50   Output ~ 0
+	1850 4500 1900 4500
+Text GLabel 2900 4850 2    50   Output ~ 0
 HalfRowClk
 $Comp
 L 74xx:74HC74 U6
-U 2 1 5EE9FAAB
-P 5750 2550
-F 0 "U6" H 5750 2550 50  0000 C CNN
-F 1 "74HC74" H 5900 2800 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5750 2550 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 5750 2550 50  0001 C CNN
-	2    5750 2550
+U 1 1 5EE9FAAB
+P 4850 3650
+F 0 "U6" H 4850 3650 50  0000 C CNN
+F 1 "74HC74" H 5000 3900 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4850 3650 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 4850 3650 50  0001 C CNN
+	1    4850 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 2450 5350 2450
+	4550 3550 4450 3550
 Wire Wire Line
-	5350 2450 5350 3000
+	4450 3550 4450 3200
 Wire Wire Line
-	5350 3000 6100 3000
+	4450 3200 5200 3200
 Wire Wire Line
-	6100 2650 6050 2650
+	5200 3750 5150 3750
 Wire Wire Line
-	5750 2850 5750 2900
+	4850 3350 4850 3300
 Wire Wire Line
-	5750 2900 5700 2900
-Wire Wire Line
-	5750 2250 5750 2200
-Wire Wire Line
-	5750 2200 5700 2200
-Text GLabel 5700 2200 0    50   Input ~ 0
+	4850 3300 4800 3300
+Text GLabel 4800 3300 0    50   Input ~ 0
 VCC
-Text GLabel 5700 2900 0    50   Input ~ 0
-VCC
-Text GLabel 6150 3150 2    50   Output ~ 0
+Text GLabel 5350 3550 2    50   Output ~ 0
 RowClk
-Text Notes 5450 2050 0    50   ~ 0
-Divide HalfRowClk\nto make RowClk
-Text Notes 3400 6900 0    50   ~ 0
+Text Notes 4100 3100 0    50   ~ 0
+Divide HalfRowClk to make RowClk \nand reset it next time 2MHz descends
+Text Notes 5050 6800 0    50   ~ 0
 Full field (interlaced):\nPAL: 625 halfrows = 256*2 + 123\nNTSC: 525 halfrows = 256*2 + 13\n\nFull field (non-interlaced):\nPAL: 626 halfrows = 256*2 + 124\nNTSC: 526 halfrows = 256*2 + 14\n
-Text GLabel 3900 1600 0    50   Input ~ 0
+Text GLabel 1600 3500 0    50   Input ~ 0
 VCC
-Text GLabel 3900 1700 0    50   Input ~ 0
+Text GLabel 1600 3600 0    50   Input ~ 0
 VCC
-Text GLabel 3900 1800 0    50   Input ~ 0
+Text GLabel 1600 3700 0    50   Input ~ 0
 VCC
-Text GLabel 3900 1900 0    50   Input ~ 0
+Text GLabel 1600 3800 0    50   Input ~ 0
 VCC
-Text GLabel 3900 2000 0    50   Input ~ 0
+Text GLabel 1600 3900 0    50   Input ~ 0
 VCC
-Text GLabel 3900 2200 0    50   Input ~ 0
+Text GLabel 1600 4000 0    50   Input ~ 0
 VCC
-Text GLabel 4050 2100 0    50   Input ~ 0
+Text GLabel 1750 4100 0    50   Input ~ 0
 ~NTSC
-Wire Wire Line
-	2250 2100 2550 2100
-Text GLabel 2250 2100 0    50   Input ~ 0
-VCC
-Text Notes 1150 1100 0    50   ~ 0
+Text Notes 1000 800  0    50   ~ 0
 16MHz clock source
 Wire Wire Line
-	1900 1950 1900 2400
+	1650 4300 1900 4300
 Wire Wire Line
-	1900 2400 2550 2400
+	2900 4850 2750 4850
+Connection ~ 2750 4850
 Wire Wire Line
-	1950 3150 1900 3150
-Wire Wire Line
-	1900 3150 1900 2400
-Connection ~ 1900 2400
-Text GLabel 1950 3150 2    50   Output ~ 0
-16MHz
-Wire Wire Line
-	3400 2400 4200 2400
-Connection ~ 3400 2400
-Wire Wire Line
-	3400 2400 3400 2100
-Wire Wire Line
-	3400 2950 3400 3150
-Wire Wire Line
-	3400 3150 3450 3150
-Connection ~ 3400 2950
-Wire Wire Line
-	5100 3150 5050 3150
-Wire Wire Line
-	5050 3150 5050 2950
-Connection ~ 5050 2950
-Wire Wire Line
-	5050 2550 5450 2550
-Wire Wire Line
-	6150 3150 6100 3150
-Wire Wire Line
-	6100 2650 6100 3000
-Connection ~ 6100 3000
-Wire Wire Line
-	6100 3000 6100 3150
-NoConn ~ 6050 2450
-Connection ~ 5050 2550
-Wire Wire Line
-	5050 2550 5050 2950
-Wire Wire Line
-	5050 2100 5050 2550
-Text Notes 3200 4250 0    50   ~ 0
+	5200 3750 5200 3200
+Text Notes 2400 5500 0    50   ~ 0
 Count fields - num halfrows = A + 256*B
 $Comp
 L g200kg_CD74HCxx:CD74HC40103 U?
 U 1 1 5F10D1AB
-P 3250 5250
+P 2450 6500
 AR Path="/5F10D1AB" Ref="U?"  Part="1" 
 AR Path="/5EE74130/5F10D1AB" Ref="U?"  Part="1" 
 AR Path="/5EE6D50C/5F10D1AB" Ref="U7"  Part="1" 
-F 0 "U7" H 3250 6100 50  0000 C CNN
-F 1 "CD74HC40103" H 3250 6000 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3250 5250 50  0001 C CNN
-F 3 "" H 3250 5250 50  0000 C CNN
-	1    3250 5250
+F 0 "U7" H 2450 7350 50  0000 C CNN
+F 1 "CD74HC40103" H 2450 7250 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2450 6500 50  0001 C CNN
+F 3 "" H 2450 6500 50  0000 C CNN
+	1    2450 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 5350 2800 5350
+	2050 6600 2000 6600
 Wire Wire Line
-	2800 4650 2850 4650
+	2000 5900 2050 5900
 Wire Wire Line
-	2550 4750 2850 4750
+	1750 6000 2050 6000
 Wire Wire Line
-	2550 4850 2850 4850
+	1750 6100 2050 6100
 Wire Wire Line
-	2550 4950 2850 4950
+	1750 6200 2050 6200
 Wire Wire Line
-	2550 5050 2850 5050
+	1750 6300 2050 6300
 Wire Wire Line
-	2550 5150 2850 5150
+	1750 6400 2050 6400
 Wire Wire Line
-	2800 5250 2850 5250
+	2000 6500 2050 6500
 Wire Wire Line
-	2800 5950 2850 5950
+	2000 7200 2050 7200
 Wire Wire Line
-	3650 5250 3700 5250
+	2850 6500 2900 6500
 Wire Wire Line
-	2800 5750 2850 5750
+	2000 7000 2050 7000
 $Comp
 L g200kg_CD74HCxx:CD74HC40103 U?
 U 1 1 5F10D1BC
-P 5100 5250
+P 4300 6500
 AR Path="/5F10D1BC" Ref="U?"  Part="1" 
 AR Path="/5EE74130/5F10D1BC" Ref="U?"  Part="1" 
 AR Path="/5EE6D50C/5F10D1BC" Ref="U8"  Part="1" 
-F 0 "U8" H 5100 6100 50  0000 C CNN
-F 1 "CD74HC40103" H 5100 6000 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 5100 5250 50  0001 C CNN
-F 3 "" H 5100 5250 50  0000 C CNN
-	1    5100 5250
+F 0 "U8" H 4300 7350 50  0000 C CNN
+F 1 "CD74HC40103" H 4300 7250 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 4300 6500 50  0001 C CNN
+F 3 "" H 4300 6500 50  0000 C CNN
+	1    4300 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 4650 4700 4650
+	3850 5900 3900 5900
 Wire Wire Line
-	4700 4750 4650 4750
+	3900 6000 3850 6000
 Wire Wire Line
-	4700 4850 4650 4850
+	3900 6100 3850 6100
 Wire Wire Line
-	4700 4950 4650 4950
+	3900 6200 3850 6200
 Wire Wire Line
-	4700 5050 4650 5050
+	3900 6300 3850 6300
 Wire Wire Line
-	4700 5150 4650 5150
+	3900 6400 3850 6400
 Wire Wire Line
-	4700 5250 4450 5250
+	3900 6500 3650 6500
 Wire Wire Line
-	4700 5350 4650 5350
+	3900 6600 3850 6600
 Wire Wire Line
-	5550 6150 5550 5250
+	4750 7400 4750 6500
 Wire Wire Line
-	5550 5250 5500 5250
+	4750 6500 4700 6500
 Wire Wire Line
-	4700 5950 4650 5950
+	3900 7200 3850 7200
 Wire Wire Line
-	4700 5750 4650 5750
-Text GLabel 2800 5350 0    50   Input ~ 0
+	3900 7000 3850 7000
+Text GLabel 2000 6600 0    50   Input ~ 0
 GND
-Text GLabel 2800 4650 0    50   Input ~ 0
+Text GLabel 2000 5900 0    50   Input ~ 0
 GND
-Text GLabel 2800 5250 0    50   Input ~ 0
+Text GLabel 2000 6500 0    50   Input ~ 0
 GND
-Text GLabel 4650 5350 0    50   Input ~ 0
+Text GLabel 3850 6600 0    50   Input ~ 0
 GND
-Text GLabel 4650 5150 0    50   Input ~ 0
+Text GLabel 3850 6400 0    50   Input ~ 0
 GND
-Text GLabel 4650 5950 0    50   Input ~ 0
+Text GLabel 3850 7200 0    50   Input ~ 0
 VCC
-Text GLabel 2800 5950 0    50   Input ~ 0
-VCC
-Wire Wire Line
-	4350 5650 4350 6150
-Wire Wire Line
-	4350 5650 4700 5650
-Wire Wire Line
-	4350 6150 5550 6150
-Text GLabel 2800 5850 0    50   Input ~ 0
-GND
-Wire Wire Line
-	2800 5850 2850 5850
-Text GLabel 4650 5850 0    50   Input ~ 0
-GND
-Wire Wire Line
-	4650 5850 4700 5850
-Text GLabel 2800 5750 0    50   Input ~ 0
-VCC
-Text GLabel 4650 5750 0    50   Input ~ 0
+Text GLabel 2000 7200 0    50   Input ~ 0
 VCC
 Wire Wire Line
-	2500 5650 2850 5650
+	3550 6900 3550 7400
 Wire Wire Line
-	3700 5250 3700 5550
-Connection ~ 3700 5550
+	3550 6900 3900 6900
 Wire Wire Line
-	3700 5550 4700 5550
-Text Notes 2400 4550 0    50   ~ 0
+	3550 7400 4750 7400
+Text GLabel 2000 7100 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2000 7100 2050 7100
+Text GLabel 3850 7100 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3850 7100 3900 7100
+Text GLabel 2000 7000 0    50   Input ~ 0
+VCC
+Text GLabel 3850 7000 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	1700 6900 2050 6900
+Wire Wire Line
+	2900 6500 2900 6800
+Connection ~ 2900 6800
+Wire Wire Line
+	2900 6800 3900 6800
+Text Notes 1600 5800 0    50   ~ 0
 A = 124\n(NTSC: 24)
-Text Notes 4200 4550 0    50   ~ 0
+Text Notes 3400 5800 0    50   ~ 0
 B = 2
-Text GLabel 4650 4650 0    50   Input ~ 0
+Text GLabel 3850 5900 0    50   Input ~ 0
 GND
-Text GLabel 5700 6300 2    50   Output ~ 0
+Text GLabel 4900 7550 2    50   Output ~ 0
 FieldClk
-Text GLabel 2550 4750 0    50   Input ~ 0
+Text GLabel 1750 6000 0    50   Input ~ 0
 ~NTSC
-Text GLabel 2550 4850 0    50   Input ~ 0
+Text GLabel 1750 6100 0    50   Input ~ 0
 ~NTSC
 Wire Wire Line
-	3700 5550 3700 5650
+	2900 6800 2900 6900
 Wire Wire Line
-	2500 5650 2500 6150
-Text GLabel 4450 5250 0    50   Input ~ 0
+	1700 6900 1700 7400
+Text GLabel 3650 6500 0    50   Input ~ 0
 VCC
-Text GLabel 4650 4750 0    50   Input ~ 0
+Text GLabel 3850 6000 0    50   Input ~ 0
 GND
-Text GLabel 4650 4850 0    50   Input ~ 0
+Text GLabel 3850 6100 0    50   Input ~ 0
 GND
-Text GLabel 4650 4950 0    50   Input ~ 0
+Text GLabel 3850 6200 0    50   Input ~ 0
 GND
-Text GLabel 4650 5050 0    50   Input ~ 0
+Text GLabel 3850 6300 0    50   Input ~ 0
 GND
-Text GLabel 2550 4950 0    50   Input ~ 0
+Text GLabel 1750 6200 0    50   Input ~ 0
 VCC
-Text GLabel 2550 5050 0    50   Input ~ 0
+Text GLabel 1750 6300 0    50   Input ~ 0
 VCC
-Text GLabel 2550 5150 0    50   Input ~ 0
+Text GLabel 1750 6400 0    50   Input ~ 0
 ~NTSC
 $Comp
 L Diode:1N4007 D2
 U 1 1 5EE1444F
-P 3700 5800
-F 0 "D2" V 3746 5721 50  0000 R CNN
-F 1 "1N4007" V 3655 5721 50  0000 R CNN
-F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 3700 5625 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3700 5800 50  0001 C CNN
-	1    3700 5800
+P 2900 7050
+F 0 "D2" V 2946 6971 50  0000 R CNN
+F 1 "1N4007" V 2855 6971 50  0000 R CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 2900 6875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2900 7050 50  0001 C CNN
+	1    2900 7050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4007 D3
 U 1 1 5EE15E03
-P 4050 6150
-F 0 "D3" H 4050 6366 50  0000 C CNN
-F 1 "1N4007" H 4050 6275 50  0000 C CNN
-F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 4050 5975 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4050 6150 50  0001 C CNN
-	1    4050 6150
+P 3250 7400
+F 0 "D3" H 3250 7616 50  0000 C CNN
+F 1 "1N4007" H 3250 7525 50  0000 C CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 3250 7225 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3250 7400 50  0001 C CNN
+	1    3250 7400
 	1    0    0    -1  
 $EndComp
-Connection ~ 2500 6150
-Text GLabel 2100 6150 0    50   Input ~ 0
+Connection ~ 1700 7400
+Text GLabel 1300 7400 0    50   Input ~ 0
 GND
 $Comp
 L Device:R R1
 U 1 1 5EE50BE6
-P 2300 6150
-F 0 "R1" V 2093 6150 50  0000 C CNN
-F 1 "22k" V 2184 6150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2230 6150 50  0001 C CNN
-F 3 "~" H 2300 6150 50  0001 C CNN
-	1    2300 6150
+P 1500 7400
+F 0 "R1" V 1293 7400 50  0000 C CNN
+F 1 "22k" V 1384 7400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1430 7400 50  0001 C CNN
+F 3 "~" H 1500 7400 50  0001 C CNN
+	1    1500 7400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2150 6150 2100 6150
+	1350 7400 1300 7400
 Wire Wire Line
-	3700 5950 3700 6150
+	2900 7200 2900 7400
 Wire Wire Line
-	2500 6150 3700 6150
+	1700 7400 2900 7400
 Wire Wire Line
-	4200 6150 4350 6150
-Connection ~ 4350 6150
+	3400 7400 3550 7400
+Connection ~ 3550 7400
 Wire Wire Line
-	3900 6150 3700 6150
-Connection ~ 3700 6150
+	3100 7400 2900 7400
+Connection ~ 2900 7400
 Wire Wire Line
-	2450 6150 2500 6150
+	1650 7400 1700 7400
 Wire Wire Line
-	2100 5550 2850 5550
+	1300 6800 2050 6800
 Wire Wire Line
-	5700 6300 5550 6300
+	4900 7550 4750 7550
 Wire Wire Line
-	5550 6300 5550 6150
-Connection ~ 5550 6150
-Text GLabel 2100 5550 0    50   Input ~ 0
+	4750 7550 4750 7400
+Connection ~ 4750 7400
+Text GLabel 1300 6800 0    50   Input ~ 0
 HalfRowClk
+Text GLabel 1850 3400 0    50   Input ~ 0
+GND
+Text Notes 7500 3500 0    50   ~ 0
+The horizontal clock has to be in sync with the CPU clock for the interleaved \nmemory access to work.  If the CPU clock is only 1MHz this creates problems\nfor NTSC because the row duration is not a multiple of 1us.  We need to \ndrop some of a clock cycle at the end of each row to compensate.
+Text Notes 7950 4550 2    50   ~ 0
+1MHz
+$Comp
+L 74xx:74HC74 U31
+U 1 1 5F19D9A7
+P 4750 1550
+F 0 "U31" H 4750 1550 50  0000 C CNN
+F 1 "74HC74" H 4900 1800 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4750 1550 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 4750 1550 50  0001 C CNN
+	1    4750 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1450 4350 1450
+Wire Wire Line
+	4350 1450 4350 2050
+Wire Wire Line
+	4350 2050 5100 2050
+Wire Wire Line
+	5100 2050 5100 1650
+Wire Wire Line
+	5100 1650 5050 1650
+Wire Wire Line
+	5050 1450 5200 1450
+Text GLabel 5200 2050 2    50   Output ~ 0
+2MHz
+Wire Notes Line
+	8100 4400 8200 4400
+Wire Notes Line
+	8300 4400 8400 4400
+Wire Notes Line
+	8500 4400 8600 4400
+Wire Notes Line
+	8700 4400 8800 4400
+Wire Notes Line
+	8900 4400 9000 4400
+Text Notes 7950 4450 2    50   ~ 0
+2MHz
+Wire Notes Line
+	8100 4300 8150 4300
+Wire Notes Line
+	8200 4300 8250 4300
+Wire Notes Line
+	8300 4300 8350 4300
+Wire Notes Line
+	8400 4300 8450 4300
+Wire Notes Line
+	8500 4300 8550 4300
+Wire Notes Line
+	8600 4300 8650 4300
+Wire Notes Line
+	8700 4300 8750 4300
+Wire Notes Line
+	8800 4300 8850 4300
+Wire Notes Line
+	8900 4300 8950 4300
+Wire Notes Line
+	9000 4300 9050 4300
+Wire Notes Line
+	9100 4300 9150 4300
+Wire Notes Line
+	9200 4300 9250 4300
+Wire Notes Line
+	9300 4300 9350 4300
+Wire Notes Line
+	9400 4300 9450 4300
+Wire Notes Line
+	9500 4300 9550 4300
+Wire Notes Line
+	9600 4300 9650 4300
+Wire Notes Line
+	9700 4300 9750 4300
+Wire Notes Line
+	9800 4300 9850 4300
+Wire Notes Line
+	9900 4300 9950 4300
+Wire Notes Line
+	10000 4300 10050 4300
+Wire Notes Line
+	10100 4300 10150 4300
+Wire Notes Line
+	10200 4300 10250 4300
+Text Notes 7950 4350 2    50   ~ 0
+~4MHz
+Wire Notes Line
+	10100 4400 10200 4400
+Wire Notes Line
+	9900 4400 10000 4400
+Wire Notes Line
+	9700 4400 9800 4400
+Wire Notes Line
+	9500 4400 9600 4400
+Wire Notes Line
+	9300 4400 9400 4400
+Wire Notes Line
+	9100 4400 9200 4400
+Wire Notes Line rgb(255, 0, 255)
+	8900 4500 9300 4500
+Wire Notes Line
+	9900 4500 10100 4500
+Wire Notes Line
+	9500 4500 9700 4500
+Wire Notes Line
+	8500 4500 8700 4500
+Wire Notes Line
+	8100 4500 8300 4500
+Wire Notes Line style dotted
+	8050 3900 8050 4250
+Wire Notes Line style dotted
+	8250 4100 8250 4200
+Wire Notes Line style dotted
+	8450 3900 8450 4250
+Wire Notes Line style dotted
+	8650 4100 8650 4200
+Wire Notes Line style dotted
+	8850 3900 8850 4250
+Wire Notes Line style dotted
+	9450 3900 9450 4250
+Wire Notes Line style dotted
+	9650 4100 9650 4200
+Wire Notes Line style dotted
+	9850 3900 9850 4250
+Text Notes 7950 4200 2    50   ~ 0
+Rows
+Text Notes 7950 4100 2    50   ~ 0
+RowClk
+Wire Notes Line style solid rgb(255, 0, 0)
+	9050 4050 9200 4050
+Text Notes 8800 3900 0    50   ~ 0
+63
+Text Notes 8400 3900 0    50   ~ 0
+62
+Text Notes 8000 3900 0    50   ~ 0
+61
+Text Notes 9000 3900 0    50   ~ 0
+00
+Text Notes 9400 3900 0    50   ~ 0
+01
+Text Notes 9800 3900 0    50   ~ 0
+02
+Wire Notes Line style dotted
+	9050 3900 9050 4250
+Wire Notes Line width 39 style solid rgb(132, 132, 132)
+	9050 4150 10300 4150
+Wire Notes Line width 39 style solid rgb(132, 132, 132)
+	8000 4150 9000 4150
+Wire Notes Line
+	8050 3950 8100 3950
+Wire Notes Line
+	8150 3950 8200 3950
+Wire Notes Line
+	8250 3950 8300 3950
+Wire Notes Line
+	8350 3950 8400 3950
+Wire Notes Line
+	8450 3950 8500 3950
+Wire Notes Line
+	8550 3950 8600 3950
+Wire Notes Line
+	8650 3950 8700 3950
+Wire Notes Line
+	8750 3950 8800 3950
+Wire Notes Line
+	8850 3950 8900 3950
+Wire Notes Line
+	8950 3950 9000 3950
+Wire Notes Line
+	9050 3950 9100 3950
+Wire Notes Line
+	9150 3950 9200 3950
+Wire Notes Line
+	9250 3950 9300 3950
+Wire Notes Line
+	9350 3950 9400 3950
+Wire Notes Line
+	9450 3950 9500 3950
+Wire Notes Line
+	9550 3950 9600 3950
+Wire Notes Line
+	9650 3950 9700 3950
+Wire Notes Line
+	9750 3950 9800 3950
+Wire Notes Line
+	9850 3950 9900 3950
+Wire Notes Line
+	9950 3950 10000 3950
+Wire Notes Line
+	10050 3950 10100 3950
+Wire Notes Line
+	10150 3950 10200 3950
+Wire Notes Line style dotted
+	9250 4100 9250 4200
+Text Notes 7950 4000 2    50   ~ 0
+4MHz
+Wire Notes Line style solid rgb(255, 0, 0)
+	9200 4600 9400 4600
+Text Notes 7950 5650 2    50   ~ 0
+1MHz
+Wire Notes Line
+	8100 5500 8200 5500
+Wire Notes Line
+	8300 5500 8400 5500
+Wire Notes Line
+	8500 5500 8600 5500
+Wire Notes Line
+	8700 5500 8800 5500
+Wire Notes Line
+	8900 5500 9000 5500
+Text Notes 7950 5550 2    50   ~ 0
+2MHz
+Wire Notes Line
+	8100 5400 8150 5400
+Wire Notes Line
+	8200 5400 8250 5400
+Wire Notes Line
+	8300 5400 8350 5400
+Wire Notes Line
+	8400 5400 8450 5400
+Wire Notes Line
+	8500 5400 8550 5400
+Wire Notes Line
+	8600 5400 8650 5400
+Wire Notes Line
+	8700 5400 8750 5400
+Wire Notes Line
+	8800 5400 8850 5400
+Wire Notes Line
+	8900 5400 8950 5400
+Wire Notes Line
+	9200 5400 9250 5400
+Wire Notes Line
+	9300 5400 9350 5400
+Wire Notes Line
+	9400 5400 9450 5400
+Wire Notes Line
+	9500 5400 9550 5400
+Wire Notes Line
+	9600 5400 9650 5400
+Wire Notes Line
+	9700 5400 9750 5400
+Wire Notes Line
+	9800 5400 9850 5400
+Wire Notes Line
+	9900 5400 9950 5400
+Wire Notes Line
+	10000 5400 10050 5400
+Wire Notes Line
+	10100 5400 10150 5400
+Wire Notes Line
+	10200 5400 10250 5400
+Text Notes 7950 5450 2    50   ~ 0
+~4MHz
+Wire Notes Line
+	10100 5500 10200 5500
+Wire Notes Line
+	9900 5500 10000 5500
+Wire Notes Line
+	9700 5500 9800 5500
+Wire Notes Line
+	9500 5500 9600 5500
+Wire Notes Line
+	9300 5500 9400 5500
+Wire Notes Line
+	8900 5600 9100 5600
+Wire Notes Line
+	10100 5600 10300 5600
+Wire Notes Line
+	9700 5600 9900 5600
+Wire Notes Line
+	8500 5600 8700 5600
+Wire Notes Line
+	8100 5600 8300 5600
+Wire Notes Line style dotted
+	8050 5000 8050 5350
+Wire Notes Line style dotted
+	8250 5200 8250 5300
+Wire Notes Line style dotted
+	8450 5000 8450 5350
+Wire Notes Line style dotted
+	8650 5200 8650 5300
+Wire Notes Line style dotted
+	8850 5000 8850 5350
+Wire Notes Line style dotted
+	9650 5000 9650 5350
+Wire Notes Line style dotted
+	9850 5200 9850 5300
+Wire Notes Line style dotted
+	10050 5000 10050 5350
+Text Notes 7950 5300 2    50   ~ 0
+Rows
+Text Notes 7950 5200 2    50   ~ 0
+RowClk
+Wire Notes Line style solid rgb(255, 0, 0)
+	9250 5150 9400 5150
+Text Notes 8800 5000 0    50   ~ 0
+63
+Text Notes 8400 5000 0    50   ~ 0
+62
+Text Notes 8000 5000 0    50   ~ 0
+61
+Text Notes 9200 5000 0    50   ~ 0
+00
+Text Notes 9600 5000 0    50   ~ 0
+01
+Text Notes 10000 5000 0    50   ~ 0
+02
+Wire Notes Line style dotted
+	9250 5000 9250 5350
+Wire Notes Line width 39 style solid rgb(132, 132, 132)
+	9250 5250 10300 5250
+Wire Notes Line width 39 style solid rgb(132, 132, 132)
+	8000 5250 9200 5250
+Wire Notes Line
+	8050 5050 8100 5050
+Wire Notes Line
+	8150 5050 8200 5050
+Wire Notes Line
+	8250 5050 8300 5050
+Wire Notes Line
+	8350 5050 8400 5050
+Wire Notes Line
+	8450 5050 8500 5050
+Wire Notes Line
+	8550 5050 8600 5050
+Wire Notes Line
+	8650 5050 8700 5050
+Wire Notes Line
+	8750 5050 8800 5050
+Wire Notes Line
+	8850 5050 8900 5050
+Wire Notes Line
+	8950 5050 9000 5050
+Wire Notes Line
+	9250 5050 9300 5050
+Wire Notes Line
+	9350 5050 9400 5050
+Wire Notes Line
+	9450 5050 9500 5050
+Wire Notes Line
+	9550 5050 9600 5050
+Wire Notes Line
+	9650 5050 9700 5050
+Wire Notes Line
+	9750 5050 9800 5050
+Wire Notes Line
+	9850 5050 9900 5050
+Wire Notes Line
+	9950 5050 10000 5050
+Wire Notes Line
+	10050 5050 10100 5050
+Wire Notes Line
+	10150 5050 10200 5050
+Wire Notes Line
+	10250 5050 10300 5050
+Wire Notes Line style dotted
+	9450 5200 9450 5300
+Text Notes 7950 5100 2    50   ~ 0
+4MHz
+Text Notes 7950 5750 2    50   ~ 0
+RowClkReset
+Wire Notes Line style solid rgb(255, 0, 0)
+	9400 5700 9600 5700
+Wire Notes Line
+	9050 5050 9100 5050
+Wire Notes Line
+	9150 5050 9200 5050
+Wire Notes Line
+	9000 5400 9050 5400
+Wire Notes Line
+	9100 5400 9150 5400
+Wire Notes Line
+	9100 5500 9200 5500
+Wire Notes Line
+	9300 5600 9500 5600
+Wire Notes Line
+	10250 3950 10300 3950
+Wire Notes Line style dotted
+	10050 4100 10050 4200
+Wire Notes Line style dotted
+	10250 3900 10250 4250
+Text Notes 10200 3900 0    50   ~ 0
+03
+Text Notes 8000 3750 0    50   ~ 0
+NTSC - 63.5us / row
+Text Notes 8000 4850 0    50   ~ 0
+PAL - 64us / row
+Wire Notes Line style dotted rgb(0, 194, 0)
+	9100 4050 9100 4500
+Wire Notes Line style dotted rgb(0, 194, 0)
+	9300 5150 9300 5600
+Text Notes 7950 4650 2    50   ~ 0
+RowClkReset
+Wire Notes Line style solid
+	7300 2950 10700 2950
+Wire Notes Line style solid
+	10700 2950 10700 5850
+Wire Notes Line style solid
+	10700 5850 7300 5850
+Wire Notes Line style solid
+	7300 5850 7300 2950
+Text Notes 8650 3100 0    50   ~ 0
+1MHz clock timing
+$Comp
+L 74xx:74HC74 U30
+U 1 1 5F5E2F31
+P 2300 1550
+F 0 "U30" H 2300 1550 50  0000 C CNN
+F 1 "74HC74" H 2450 1800 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2300 1550 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 2300 1550 50  0001 C CNN
+	1    2300 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1450 1900 1450
+Wire Wire Line
+	2650 1650 2600 1650
+Text GLabel 2750 2050 2    50   Output ~ 0
+8MHz
+$Comp
+L 74xx:74HC74 U30
+U 2 1 5F5E2F40
+P 3450 1550
+F 0 "U30" H 3450 1550 50  0000 C CNN
+F 1 "74HC74" H 3600 1800 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3450 1550 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 3450 1550 50  0001 C CNN
+	2    3450 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1450 3100 1450
+Wire Wire Line
+	3800 1650 3750 1650
+Text GLabel 3900 2050 2    50   Output ~ 0
+4MHz
+Wire Wire Line
+	2650 1650 2650 1550
+Wire Wire Line
+	2650 2050 1900 2050
+Wire Wire Line
+	1900 2050 1900 1450
+Wire Wire Line
+	2650 1650 2650 2050
+Connection ~ 2650 1650
+Wire Wire Line
+	2650 2050 2750 2050
+Wire Wire Line
+	2650 1550 3150 1550
+NoConn ~ 2600 1450
+Text GLabel 4700 1200 0    50   Input ~ 0
+VCC
+Text GLabel 2250 1200 0    50   Input ~ 0
+VCC
+Text GLabel 3400 1200 0    50   Input ~ 0
+VCC
+Text GLabel 3400 1900 0    50   Input ~ 0
+VCC
+Text GLabel 2250 1900 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	2250 1200 2300 1200
+Wire Wire Line
+	2300 1200 2300 1250
+Wire Wire Line
+	2300 1850 2300 1900
+Wire Wire Line
+	2300 1900 2250 1900
+Wire Wire Line
+	3400 1900 3450 1900
+Wire Wire Line
+	3450 1900 3450 1850
+Wire Wire Line
+	4700 1200 4750 1200
+Wire Wire Line
+	4750 1200 4750 1250
+Wire Wire Line
+	3400 1200 3450 1200
+Wire Wire Line
+	3450 1200 3450 1250
+Text GLabel 4700 1900 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	4700 1900 4750 1900
+Wire Wire Line
+	4750 1900 4750 1850
+$Comp
+L 74xx:74HC74 U6
+U 2 1 5F7A850D
+P 4850 4450
+F 0 "U6" H 4850 4450 50  0000 C CNN
+F 1 "74HC74" H 5000 4700 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4850 4450 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 4850 4450 50  0001 C CNN
+	2    4850 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4350 4450 4350
+Text GLabel 5200 1450 2    50   Output ~ 0
+~2MHz
+Wire Wire Line
+	5200 2050 5100 2050
+Connection ~ 5100 2050
+Wire Wire Line
+	1650 1550 2000 1550
+Text GLabel 4300 4450 0    50   Input ~ 0
+~2MHz
+Wire Wire Line
+	4300 4450 4550 4450
+Text GLabel 4300 3650 0    50   Input ~ 0
+HalfRowClk
+Wire Wire Line
+	2750 4000 2750 4850
+Wire Wire Line
+	4300 3650 4550 3650
+Wire Wire Line
+	4850 4150 4850 4100
+Wire Wire Line
+	4850 4100 4800 4100
+Wire Wire Line
+	4850 4750 4850 4800
+Wire Wire Line
+	4850 4800 4800 4800
+Text GLabel 4800 4800 0    50   Input ~ 0
+VCC
+Text GLabel 4800 4100 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	5150 3550 5350 3550
+Wire Wire Line
+	5150 4350 5200 4350
+Connection ~ 4450 3550
+Wire Wire Line
+	4850 3950 4850 4000
+Wire Wire Line
+	4850 4000 5200 4000
+Wire Wire Line
+	5200 4000 5200 4350
+Wire Wire Line
+	4450 3550 4450 4350
+Wire Wire Line
+	3900 2050 3800 2050
+Wire Wire Line
+	3800 1650 3800 2050
+Wire Wire Line
+	4050 1450 4050 1550
+Wire Wire Line
+	4050 1550 4450 1550
+Wire Wire Line
+	3750 1450 4050 1450
+Wire Wire Line
+	3100 1450 3100 2050
+Wire Wire Line
+	3100 2050 3800 2050
+Connection ~ 3800 2050
+Connection ~ 2650 2050
+Text Notes 4350 1050 0    50   ~ 0
+2MHz is triggered by ~4MHz\nso it is 180deg out of phase
+Text Notes 5900 1050 0    50   ~ 0
+1MHz is triggered by 2MHz but pauses for half a cycle\nsometimes, see "1MHz clock timing" explanation
+Wire Wire Line
+	7250 1900 7250 1850
+Wire Wire Line
+	7200 1900 7250 1900
+Text GLabel 7200 1900 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	7250 1200 7200 1200
+Wire Wire Line
+	7250 1250 7250 1200
+Text GLabel 7700 2050 2    50   Output ~ 0
+1MHz
+Wire Wire Line
+	7550 1450 7600 1450
+$Comp
+L 74xx:74HC74 U31
+U 2 1 5F1AF2A1
+P 7250 1550
+F 0 "U31" H 7250 1550 50  0000 C CNN
+F 1 "74HC74" H 7400 1800 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7250 1550 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 7250 1550 50  0001 C CNN
+	2    7250 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1450 6950 1450
+Wire Wire Line
+	6250 2050 7600 2050
+Text GLabel 7200 1200 0    50   Input ~ 0
+VCC
+Text GLabel 6250 1350 0    50   Input ~ 0
+~RowClk
+Wire Wire Line
+	7600 2050 7600 1450
+Wire Wire Line
+	7600 2050 7700 2050
+Text GLabel 5350 3750 2    50   Output ~ 0
+~RowClk
+Wire Wire Line
+	5350 3750 5200 3750
+Connection ~ 5200 3750
+Wire Wire Line
+	6250 1350 6300 1350
+Wire Wire Line
+	6300 1550 6250 1550
+Wire Wire Line
+	6250 1550 6250 2050
+Wire Wire Line
+	5100 1650 6900 1650
+Wire Wire Line
+	6900 1650 6900 1550
+Wire Wire Line
+	6900 1550 6950 1550
+Connection ~ 5100 1650
+Connection ~ 7600 2050
+NoConn ~ 7550 1650
+NoConn ~ 5150 4550
+$Comp
+L 74xx:74LS00 U19
+U 4 1 5FF126B3
+P 6600 1450
+F 0 "U19" H 6600 1450 50  0000 C CNN
+F 1 "74LS00" H 6600 1684 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6600 1450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6600 1450 50  0001 C CNN
+	4    6600 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
