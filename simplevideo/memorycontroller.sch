@@ -2152,90 +2152,6 @@ Wire Wire Line
 	1850 2650 1850 4800
 Wire Bus Line
 	4900 4450 4950 4400
-Text Label 13350 5600 2    50   ~ 0
-CLK_16
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	16600 5550 16700 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	16800 5550 16900 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	17000 5550 17100 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	17200 5550 17300 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	17400 5550 17500 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	17600 5550 17700 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	17800 5550 17900 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	18000 5550 18100 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	18200 5550 18300 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	18400 5550 18500 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	18600 5550 18700 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	18800 5550 18900 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	15800 5550 15900 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	16000 5550 16100 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	16200 5550 16300 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	16400 5550 16500 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	15000 5550 15100 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	15200 5550 15300 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	15400 5550 15500 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	15600 5550 15700 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	14200 5550 14300 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	14400 5550 14500 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	14600 5550 14700 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	14800 5550 14900 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	13400 5550 13500 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	13600 5550 13700 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	13800 5550 13900 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	14000 5550 14100 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	19600 5550 19700 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	19000 5550 19100 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	19200 5550 19300 5550
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	19400 5550 19500 5550
-Text Label 13350 5800 2    50   ~ 0
-CLK_4
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	18200 5750 18600 5750
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	15800 5750 16200 5750
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	17400 5750 17800 5750
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	15000 5750 15400 5750
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	16600 5750 17000 5750
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	14200 5750 14600 5750
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	13400 5750 13800 5750
-Wire Notes Line width 20 style solid rgb(0, 200, 0)
-	19000 5750 19400 5750
 Text GLabel 4400 1100 0    50   Input ~ 0
 1MHz
 Text GLabel 4400 2050 0    50   Input ~ 0
@@ -2275,22 +2191,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4850 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5900 1950
-Wire Bus Line
-	4900 4450 4900 6400
-Wire Bus Line
-	4900 3650 4900 4200
-Wire Bus Line
-	1650 1500 1650 2250
-Wire Bus Line
-	3200 1750 3200 2850
-Wire Bus Line
-	9000 2950 9000 4500
-Wire Bus Line
-	1550 3650 1550 6500
-Wire Bus Line
-	3200 3250 3200 6500
-Wire Bus Line
-	7350 3250 7350 5600
 $Comp
 L 74xx:74HC74 U9
 U 2 1 5EE8A27E
@@ -2313,4 +2213,20 @@ F 3 "74xx/74hc_hct74.pdf" H 5600 2050 50  0001 C CNN
 	1    5600 2050
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	4900 4450 4900 6400
+Wire Bus Line
+	4900 3650 4900 4200
+Wire Bus Line
+	1650 1500 1650 2250
+Wire Bus Line
+	3200 1750 3200 2850
+Wire Bus Line
+	9000 2950 9000 4500
+Wire Bus Line
+	1550 3650 1550 6500
+Wire Bus Line
+	3200 3250 3200 6500
+Wire Bus Line
+	7350 3250 7350 5600
 $EndSCHEMATC

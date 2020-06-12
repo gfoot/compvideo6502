@@ -784,18 +784,6 @@ Wire Bus Line
 	2850 1050 2800 1050
 Text GLabel 2800 1050 0    50   3State ~ 0
 D[0..7]
-Wire Bus Line
-	2900 1100 2900 1850
-Wire Bus Line
-	7500 1100 7500 1850
-Wire Bus Line
-	5400 1100 5400 2650
-Wire Bus Line
-	1200 750  1200 1500
-Wire Bus Line
-	1200 1900 1200 3450
-Wire Bus Line
-	7250 4250 7250 5300
 Wire Wire Line
 	9300 5900 9400 5900
 Text GLabel 9300 5900 0    50   Input ~ 0
@@ -971,4 +959,16 @@ Wire Bus Line
 	7200 4200 7150 4200
 Wire Bus Line
 	7250 4250 7200 4200
+Wire Bus Line
+	7250 4250 7250 5300
+Wire Bus Line
+	2900 1100 2900 1850
+Wire Bus Line
+	7500 1100 7500 1850
+Wire Bus Line
+	1200 750  1200 1500
+Wire Bus Line
+	1200 1900 1200 3450
+Wire Bus Line
+	5400 1100 5400 2650
 $EndSCHEMATC
