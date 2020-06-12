@@ -14,91 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 4xxx:4040 U1
-U 1 1 5EE32031
-P 3350 3550
-F 0 "U1" H 3200 4200 50  0000 C CNN
-F 1 "4040" H 3500 4200 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3350 3550 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms-40bms.pdf" H 3350 3550 50  0001 C CNN
-	1    3350 3550
-	1    0    0    -1  
-$EndComp
-Text GLabel 2800 3050 0    50   Input ~ 0
-FieldClk
-Wire Wire Line
-	2800 3050 2850 3050
-Wire Wire Line
-	2850 3350 2800 3350
-Text GLabel 2800 3350 0    50   Input ~ 0
-GND
-Text GLabel 3300 4500 0    50   Input ~ 0
-GND
-Wire Wire Line
-	3300 4500 3350 4500
-Wire Wire Line
-	3350 4500 3350 4450
-Text GLabel 3300 2700 0    50   Input ~ 0
-VCC
-Wire Wire Line
-	3300 2700 3350 2700
-Wire Wire Line
-	3350 2700 3350 2750
-Wire Wire Line
-	3850 3050 4150 3050
-Wire Wire Line
-	3850 3150 4150 3150
-Wire Wire Line
-	3850 3250 4150 3250
-Wire Wire Line
-	3850 3350 4150 3350
-Wire Wire Line
-	3850 3450 4150 3450
-Wire Wire Line
-	3850 3550 4150 3550
-Wire Wire Line
-	3850 3650 4150 3650
-Wire Wire Line
-	3850 3750 4150 3750
-Wire Wire Line
-	3850 3850 4150 3850
-Wire Wire Line
-	3850 3950 4150 3950
-Wire Wire Line
-	3850 4050 4150 4050
-Wire Wire Line
-	3850 4150 4150 4150
-Entry Wire Line
-	4150 3050 4250 3150
-Entry Wire Line
-	4150 3150 4250 3250
-Entry Wire Line
-	4150 3250 4250 3350
-Entry Wire Line
-	4150 3350 4250 3450
-Entry Wire Line
-	4150 3450 4250 3550
-Entry Wire Line
-	4150 3550 4250 3650
-Entry Wire Line
-	4150 3650 4250 3750
-Entry Wire Line
-	4150 3750 4250 3850
-Entry Wire Line
-	4150 3850 4250 3950
-Entry Wire Line
-	4150 3950 4250 4050
-Entry Wire Line
-	4150 4050 4250 4150
-Entry Wire Line
-	4150 4150 4250 4250
-Entry Bus Bus
-	4250 4300 4350 4400
-Wire Bus Line
-	4350 4400 4400 4400
-Text GLabel 4400 4400 2    50   Output ~ 0
-Field[0..11]
-$Comp
 L 4xxx:4040 U4
 U 1 1 5EE3C5A2
 P 5800 3550
@@ -264,30 +179,6 @@ Wire Bus Line
 	9250 4400 9300 4400
 Text GLabel 9300 4400 2    50   Output ~ 0
 VCOL[0..11]
-Text Label 4150 3050 2    50   ~ 0
-Field0
-Text Label 4150 3150 2    50   ~ 0
-Field1
-Text Label 4150 3250 2    50   ~ 0
-Field2
-Text Label 4150 3350 2    50   ~ 0
-Field3
-Text Label 4150 3450 2    50   ~ 0
-Field4
-Text Label 4150 3550 2    50   ~ 0
-Field5
-Text Label 4150 3650 2    50   ~ 0
-Field6
-Text Label 4150 3750 2    50   ~ 0
-Field7
-Text Label 4150 3850 2    50   ~ 0
-Field8
-Text Label 4150 3950 2    50   ~ 0
-Field9
-Text Label 4150 4050 2    50   ~ 0
-Field10
-Text Label 4150 4150 2    50   ~ 0
-Field11
 Text GLabel 7700 3050 0    50   Input ~ 0
 4MHz
 Text GLabel 7700 3350 0    50   Input ~ 0
@@ -346,23 +237,9 @@ NoConn ~ 8750 4150
 NoConn ~ 6300 3950
 NoConn ~ 6300 4050
 NoConn ~ 6300 4150
-NoConn ~ 3850 3050
-NoConn ~ 3850 3150
-NoConn ~ 3850 3250
-NoConn ~ 3850 3350
-NoConn ~ 3850 3450
-NoConn ~ 3850 3550
-NoConn ~ 3850 3650
-NoConn ~ 3850 3750
-NoConn ~ 3850 3850
-NoConn ~ 3850 4050
-NoConn ~ 3850 3950
-NoConn ~ 3850 4150
 NoConn ~ 8750 3150
 NoConn ~ 8750 3050
 NoConn ~ 8750 3250
-Wire Bus Line
-	4250 3150 4250 4300
 Wire Bus Line
 	6700 3150 6700 4300
 Wire Bus Line

@@ -223,14 +223,8 @@ Wire Wire Line
 Connection ~ 4300 7550
 Wire Wire Line
 	4300 7550 5100 7550
-Text GLabel 2700 6650 0    50   Input ~ 0
-HOn
-Text GLabel 2700 6850 0    50   Input ~ 0
+Text GLabel 3300 6750 0    50   Input ~ 0
 LUM
-Wire Wire Line
-	2700 6650 2850 6650
-Wire Wire Line
-	2700 6850 2850 6850
 Wire Wire Line
 	4050 7250 4050 6750
 Connection ~ 4050 6750
@@ -284,28 +278,17 @@ Wire Wire Line
 	5850 7450 5850 7100
 $Comp
 L 74xx:74LS08 U2
-U 3 1 5FFB1A37
-P 3150 6750
-F 0 "U2" H 3150 7075 50  0000 C CNN
-F 1 "74LS08" H 3150 6984 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3150 6750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3150 6750 50  0001 C CNN
-	3    3150 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS08 U2
-U 4 1 5FFB6050
+U 3 1 5FFB6050
 P 3150 7250
 F 0 "U2" H 3150 7575 50  0000 C CNN
 F 1 "74LS08" H 3150 7484 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 3150 7250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3150 7250 50  0001 C CNN
-	4    3150 7250
+	3    3150 7250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3450 7250 3550 7250
 Wire Wire Line
-	3450 6750 3550 6750
+	3300 6750 3550 6750
 $EndSCHEMATC

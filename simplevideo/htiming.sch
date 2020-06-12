@@ -257,7 +257,7 @@ $EndComp
 Wire Wire Line
 	5800 3650 5800 3600
 Wire Wire Line
-	4000 2250 4300 2250
+	4050 2250 4300 2250
 Text GLabel 2650 3200 2    50   Output ~ 0
 ~HSync
 Wire Wire Line
@@ -318,8 +318,8 @@ Text GLabel 3900 2550 0    50   Input ~ 0
 VCC
 Text GLabel 3700 2350 0    50   Input ~ 0
 VOn
-Text GLabel 4000 2250 0    50   Input ~ 0
-~HSync
+Text GLabel 4050 2250 0    50   Input ~ 0
+~RowClk
 Wire Notes Line
 	3900 2550 4300 2550
 Text Notes 3650 2750 0    50   ~ 0
