@@ -24,7 +24,9 @@ with the video controller.  If you're already happy with the way you're doing th
 keep your old design instead, but the RAM and clock need to be integrated here, in order to be shared with the video controller.
 
 I've built and tested this now, and after fixing some bugs it works as expected.  I updated the schematics based on the fixes.  
-The planned PCB layout isn't exactly what I ended up building, but it's close enough.
+The planned PCB layout isn't exactly what I ended up building, but it's close enough:
+
+<img src="images/AnnotatedBreadboardLarge.jpg" width="600" title="Annotated image of working build">
 
 # Next steps and expansion ideas
 
