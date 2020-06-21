@@ -129,7 +129,7 @@ Wire Wire Line
 Text GLabel 4150 1450 0    50   Input ~ 0
 VCC
 Text GLabel 4150 1750 0    50   Input ~ 0
-VCC
+~NTSC
 Text GLabel 4400 1650 0    50   Input ~ 0
 GND
 Text GLabel 4400 1550 0    50   Input ~ 0
@@ -191,22 +191,8 @@ Wire Wire Line
 	4150 1450 4450 1450
 Text GLabel 6650 2550 0    50   Input ~ 0
 VCC
-Text GLabel 6400 1450 0    50   Input ~ 0
-VCC
-Text GLabel 6400 1750 0    50   Input ~ 0
-VCC
-Text GLabel 6650 1650 0    50   Input ~ 0
-GND
-Text GLabel 6650 1550 0    50   Input ~ 0
-GND
-Text GLabel 6650 1950 0    50   Input ~ 0
-GND
-Text GLabel 6650 1350 0    50   Input ~ 0
-GND
-Text GLabel 6650 1250 0    50   Input ~ 0
-GND
-Text GLabel 6650 1850 0    50   Input ~ 0
-GND
+Text GLabel 6550 1450 0    50   Input ~ 0
+~NTSC
 Wire Wire Line
 	7550 1850 7550 2850
 Wire Wire Line
@@ -218,19 +204,19 @@ Wire Wire Line
 Wire Wire Line
 	6650 2550 6700 2550
 Wire Wire Line
-	6650 1850 6700 1850
+	6550 1850 6700 1850
 Wire Wire Line
-	6400 1750 6700 1750
+	6550 1750 6700 1750
 Wire Wire Line
-	6650 1650 6700 1650
+	6300 1650 6700 1650
 Wire Wire Line
-	6650 1550 6700 1550
+	6550 1550 6700 1550
 Wire Wire Line
-	6650 1350 6700 1350
+	6300 1350 6700 1350
 Wire Wire Line
-	6650 1250 6700 1250
+	6300 1250 6700 1250
 Wire Wire Line
-	6700 1950 6650 1950
+	6700 1950 6550 1950
 $Comp
 L g200kg_CD74HCxx:CD74HC40103 U?
 U 1 1 5F0243A0
@@ -245,7 +231,7 @@ F 3 "" H 7100 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 1450 6700 1450
+	6550 1450 6700 1450
 Text GLabel 4400 2450 0    50   Input ~ 0
 GND
 $Comp
@@ -313,4 +299,18 @@ Wire Wire Line
 Connection ~ 6400 3400
 Text GLabel 6500 3400 2    50   Output ~ 0
 VOn
+Text GLabel 6300 1250 0    50   Input ~ 0
+VCC
+Text GLabel 6300 1350 0    50   Input ~ 0
+VCC
+Text GLabel 6300 1650 0    50   Input ~ 0
+VCC
+Text GLabel 6550 1550 0    50   Input ~ 0
+~NTSC
+Text GLabel 6550 1750 0    50   Input ~ 0
+~NTSC
+Text GLabel 6550 1850 0    50   Input ~ 0
+~NTSC
+Text GLabel 6550 1950 0    50   Input ~ 0
+~NTSC
 $EndSCHEMATC

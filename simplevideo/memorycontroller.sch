@@ -2155,7 +2155,7 @@ Wire Bus Line
 Text GLabel 4400 1100 0    50   Input ~ 0
 1MHz
 Text GLabel 4400 2050 0    50   Input ~ 0
-2MHz
+~2MHz
 Text GLabel 4400 2500 0    50   Input ~ 0
 4MHz
 Text GLabel 10650 3800 2    50   Output ~ 0
@@ -2185,7 +2185,7 @@ U 2 1 5F245F61
 P 4850 1950
 F 0 "U2" H 4850 1950 50  0000 C CNN
 F 1 "74LS08" H 4850 2184 50  0000 C CNN
-F 2 "" H 4850 1950 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4850 1950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4850 1950 50  0001 C CNN
 	2    4850 1950
 	1    0    0    -1  

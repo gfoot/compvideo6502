@@ -288,10 +288,8 @@ Text GLabel 3150 2450 0    50   Input ~ 0
 VCC
 Wire Wire Line
 	3150 2450 3200 2450
-Text GLabel 3150 2250 0    50   Input ~ 0
+Text GLabel 2700 2250 0    50   Input ~ 0
 VCC
-Wire Wire Line
-	3150 2250 3200 2250
 Text GLabel 4550 2850 2    50   Input ~ 0
 CPU_PHI0
 Wire Wire Line
@@ -314,16 +312,12 @@ CPU_R~W
 NoConn ~ 4500 3050
 Wire Wire Line
 	4500 3150 4550 3150
-Wire Wire Line
-	4500 2950 4550 2950
-Text GLabel 4550 2950 2    50   Output ~ 0
-CPU_PHI2
 Text GLabel 4550 3150 2    50   Input ~ 0
 ~CPU_RESET
 Text GLabel 4550 4450 0    50   Input ~ 0
 CPU_R~W
 Text GLabel 4550 4650 0    50   Input ~ 0
-CPU_PHI2
+CPU_PHI0
 $Comp
 L 74xx:74LS00 U19
 U 1 1 600D1270
@@ -341,8 +335,6 @@ Wire Wire Line
 	4600 4650 4550 4650
 Text GLabel 5250 4550 2    50   Output ~ 0
 ~CPU_PHI_R
-Text GLabel 4550 5150 0    50   Input ~ 0
-CPU_PHI2
 $Comp
 L 74xx:74LS00 U19
 U 2 1 600DED9C
@@ -844,17 +836,6 @@ Text GLabel 9700 4550 2    50   Output ~ 0
 ~ROMCS
 $Comp
 L 74xx:74LS00 U19
-U 4 1 5F2C19C5
-P 10700 4600
-F 0 "U19" H 10700 4600 50  0000 C CNN
-F 1 "74LS00" H 10700 4834 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 10700 4600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 10700 4600 50  0001 C CNN
-	4    10700 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS00 U19
 U 3 1 5F2C0E11
 P 9300 4550
 F 0 "U19" H 9300 4550 50  0000 C CNN
@@ -959,6 +940,22 @@ Wire Bus Line
 	7200 4200 7150 4200
 Wire Bus Line
 	7250 4250 7200 4200
+$Comp
+L Device:R R11
+U 1 1 5EF3A894
+P 2950 2250
+F 0 "R11" V 2743 2250 50  0000 C CNN
+F 1 "100K" V 2834 2250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2880 2250 50  0001 C CNN
+F 3 "~" H 2950 2250 50  0001 C CNN
+	1    2950 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 2250 3200 2250
+Wire Wire Line
+	2800 2250 2700 2250
+NoConn ~ 4500 2950
 Wire Bus Line
 	7250 4250 7250 5300
 Wire Bus Line
@@ -971,4 +968,6 @@ Wire Bus Line
 	1200 1900 1200 3450
 Wire Bus Line
 	5400 1100 5400 2650
+Text GLabel 4550 5150 0    50   Input ~ 0
+CPU_PHI0
 $EndSCHEMATC

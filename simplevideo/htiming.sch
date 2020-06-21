@@ -185,20 +185,6 @@ Text GLabel 6500 2550 0    50   Input ~ 0
 VCC
 Text GLabel 6250 1450 0    50   Input ~ 0
 VCC
-Text GLabel 6250 1750 0    50   Input ~ 0
-VCC
-Text GLabel 6500 1650 0    50   Input ~ 0
-GND
-Text GLabel 6500 1550 0    50   Input ~ 0
-GND
-Text GLabel 6500 1950 0    50   Input ~ 0
-GND
-Text GLabel 6500 1350 0    50   Input ~ 0
-GND
-Text GLabel 6500 1250 0    50   Input ~ 0
-GND
-Text GLabel 6500 1850 0    50   Input ~ 0
-GND
 Wire Wire Line
 	7400 1850 7400 2850
 Wire Wire Line
@@ -212,7 +198,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 1850 6550 1850
 Wire Wire Line
-	6250 1750 6550 1750
+	6500 1750 6550 1750
 Wire Wire Line
 	6500 1650 6550 1650
 Wire Wire Line
@@ -220,7 +206,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 1350 6550 1350
 Wire Wire Line
-	6500 1250 6550 1250
+	6250 1250 6550 1250
 Wire Wire Line
 	6550 1950 6500 1950
 $Comp
@@ -319,7 +305,7 @@ VCC
 Text GLabel 3700 2350 0    50   Input ~ 0
 VOn
 Text GLabel 4050 2250 0    50   Input ~ 0
-~RowClk
+RowClk
 Wire Notes Line
 	3900 2550 4300 2550
 Text Notes 3650 2750 0    50   ~ 0
@@ -332,4 +318,22 @@ Text GLabel 6350 3200 2    50   Output ~ 0
 Wire Wire Line
 	6350 3200 6150 3200
 Connection ~ 6150 3200
+Text Notes 650  1450 0    50   ~ 0
+27 @6.75MHz
+Text GLabel 6250 1250 0    50   Input ~ 0
+VCC
+Text GLabel 6500 1350 0    50   Input ~ 0
+GND
+Text GLabel 6500 1550 0    50   Input ~ 0
+GND
+Text GLabel 6500 1650 0    50   Input ~ 0
+GND
+Text GLabel 6500 1850 0    50   Input ~ 0
+GND
+Text GLabel 6500 1950 0    50   Input ~ 0
+GND
+Text GLabel 6500 1750 0    50   Input ~ 0
+GND
+Text Notes 5900 1150 0    50   ~ 0
+160 4MHz cycles
 $EndSCHEMATC
