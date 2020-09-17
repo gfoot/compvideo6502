@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -490,4 +490,10 @@ Wire Wire Line
 Connection ~ 5850 4450
 Wire Wire Line
 	5850 4450 6200 4450
+$Sheet
+S 8225 3900 1450 1375
+U 5F6B7C5A
+F0 "Timing Diagrams" 50
+F1 "timingdiagrams.sch" 50
+$EndSheet
 $EndSCHEMATC
