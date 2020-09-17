@@ -1,30 +1,39 @@
 # Composite/component video controller for homebrew 6502 computers
 
-For a while I've wanted to add a shared memory style video output circuit to my homebrew 6502 computer, and a 
-month or two ago I finally got around to it.  I wanted to do this in a way that's fairly close to how early 80s microcomputers 
-tended to work, which means RAM shared between CPU and video controller, as this tends to provide the fastest possible access 
-for the CPU to the video memory.
+<img src="images/AnnotatedBreadboardLarge.jpg" width="350" title="Annotated image of working build"> |
+<a href="images/compvideo6502_schematic.pdf"><img src="images/schematic_thumbnail.png" width="350" title="Schematic (PDF)"></a>
 
-Here's the result, along with example output:
+This is my second iteration video output circuit for homebrew 6502 computers.  It's designed to work in a way that's fairly close to
+how early 80s microcomputers tended to work, which means RAM shared between CPU and video controller, as this tends to provide the
+fastest possible access for the CPU to the video memory.
 
-<img src="images/compvideo_circuit.jpg" width="350" title="Computer, memory controller, and video controller"> |
-<img src="images/compvideo_helloworld.jpg" width="350" title="Output image">
+In this second iteration, the main change from V1 is that the timings are easily configurable, allowing it to support NTSC as well
+as PAL with just a few jumper changes, as well as non-standard sync timings if you want to experiment; and the image placement and
+size is also easily configurable.
 
-I was pretty happy with the result, and planned to share the details, but I also had second thoughts about some of the design 
-decisions - while making it I'd discovered some techniques that I thought could make the whole thing a bit simpler as well as 
-more flexible (supporting NTSC as well as PAL, and allowing more experimentation with sync timings).  So rather than going 
-back to document the original design, I decided to flesh out a new design with those improvements.
+You can also use interlacing to double the vertical resolution to 512 pixels, and if you swap the clock crystal and adjust some
+other timings, you can double the horizontal resolution as well.
+
+More involved, higher clock frequencies and maybe more counters would also allow HD resolutions such as 720p and 1080i, though I
+haven't tried those yet, and VGA if you also change the output layer to output plain RGB.
+
+The limiting factor at these higher resolutions becomes memory - 384x256x2 already uses nearly half of the RAM.  I'm considering
+addressing this through a banking scheme in an upcoming V3.
+
+Here's some example output, from the default 384x256x2 configuration:
+
+<img src="images/compvideo_helloworld.jpg" width="700" title="Output image">
+
+
+# Project contents
 
 This project contains:
-* Full KiCad schematics for the new design
+* Full KiCad schematics for the new design (<a href="images/compvideo6502_schematic.pdf">also available in PDF format</a>)
 * A "PCB" layout that represents how you could build this on an array of five breadboards
 
 This includes the 6502, RAM, ROM, oscillator, reset circuit, and address decoding circuits, along 
 with the video controller.  If you're already happy with the way you're doing those in an existing system then you could mostly 
 keep your old design instead, but the RAM and clock need to be integrated here, in order to be shared with the video controller.
-
-I've built and tested this now, and after fixing some bugs it works as expected.  I updated the schematics based on the fixes.  
-The planned PCB layout isn't exactly what I ended up building, but it's close enough:
 
 <img src="images/AnnotatedBreadboardLarge.jpg" width="600" title="Annotated image of working build">
 
@@ -60,10 +69,11 @@ time around as it doesn't seem to be necessary these days.  Maybe I'm missing so
 the 6845 never supported this anyway - at least it's not mentioned in the datasheets.  So I'm guessing that since at least the 
 1980s nobody has bothered with them.
 
-I haven't worked out interlacing yet.  Websites say that you can turn it off with the right combination of sync pulses, but my TV 
-always says it's interlaced, so either I'm doing it wrong, or the TV just never says "576p" anyway.  The design here is 
-intentionally fully-interlaced, which might lead to increased vertical resolution in the end.  It should be possible to uninterlace 
-it with a small change to the sync timings.
+I haven't worked out interlacing yet.  Websites say that you can turn it off with the right combination of sync pulses, but my TV
+always says it's interlaced, so either I'm doing it wrong, or the TV just never says "576p" anyway.  The design here is
+intentionally fully-interlaced, which might lead to increased vertical resolution in the end.  It should be possible to uninterlace
+it with a small change to the sync timings.  Actually I suspect that this is becase composite doesn't support progressive scan -
+with component video the non-interlaced mode might work better.
 
 I used a lot of 74HCT40103s in this design - they're incredibly useful, and were fundamental to the simplification and tweakability 
 of the timings in this design.  However it seems they might be harder to find online than other chips I tend to use - I had to 
