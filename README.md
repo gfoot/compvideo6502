@@ -1,8 +1,8 @@
 # Composite/component video controller for homebrew 6502 computers
 
 <table>
-  <tr><td rowspan="2"><img src="images/AnnotatedBreadboardLarge.jpg" width="350" title="Annotated image of working build"></td><td><img src="images/compvideo_helloworld.jpg" width="350" title="Output image"> <a href="images/compvideo6502_schematic.pdf"></td></tr>
-  <tr><td><img src="images/schematic_thumbnail.png" width="350" title="Schematic (PDF)"></a></td></tr>
+  <tr><td rowspan="2"><img src="images/AnnotatedBreadboardLarge.jpg" width="350" title="Annotated image of working build"></td><td><img src="images/compvideo_helloworld.jpg" width="350" title="Output image"></td></tr>
+  <tr><td><a href="images/compvideo6502_schematic.pdf"><img src="images/schematic_thumbnail.png" width="350" title="Schematic (PDF)"></a></td></tr>
 </table>
 
 This is my second iteration video output circuit for homebrew 6502 computers.  It's designed to work in a way that's fairly close to
