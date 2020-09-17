@@ -1,7 +1,9 @@
 # Composite/component video controller for homebrew 6502 computers
 
-<img src="images/AnnotatedBreadboardLarge.jpg" width="350" title="Annotated image of working build"> |
-<a href="images/compvideo6502_schematic.pdf"><img src="images/schematic_thumbnail.png" width="350" title="Schematic (PDF)"></a>
+<table>
+  <tr><td rowspan="2"><img src="images/AnnotatedBreadboardLarge.jpg" width="350" title="Annotated image of working build"></td><td><img src="images/compvideo_helloworld.jpg" width="350" title="Output image"> <a href="images/compvideo6502_schematic.pdf"></td></tr>
+  <tr><td><img src="images/schematic_thumbnail.png" width="350" title="Schematic (PDF)"></a></td></tr>
+</table>
 
 This is my second iteration video output circuit for homebrew 6502 computers.  It's designed to work in a way that's fairly close to
 how early 80s microcomputers tended to work, which means RAM shared between CPU and video controller, as this tends to provide the
@@ -20,11 +22,6 @@ haven't tried those yet, and VGA if you also change the output layer to output p
 The limiting factor at these higher resolutions becomes memory - 384x256x2 already uses nearly half of the RAM.  I'm considering
 addressing this through a banking scheme in an upcoming V3.
 
-Here's some example output, from the default 384x256x2 configuration:
-
-<img src="images/compvideo_helloworld.jpg" width="700" title="Output image">
-
-
 # Project contents
 
 This project contains:
@@ -34,8 +31,6 @@ This project contains:
 This includes the 6502, RAM, ROM, oscillator, reset circuit, and address decoding circuits, along 
 with the video controller.  If you're already happy with the way you're doing those in an existing system then you could mostly 
 keep your old design instead, but the RAM and clock need to be integrated here, in order to be shared with the video controller.
-
-<img src="images/AnnotatedBreadboardLarge.jpg" width="600" title="Annotated image of working build">
 
 # Next steps and expansion ideas
 
